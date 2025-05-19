@@ -2,7 +2,7 @@ const express = require('express');
 const axios = require('axios');
 const app = express();
 app.use(express.json());
-const api = '3bd86dec48eb3831f9b0cf5ad90d13e5';
+const api = 'removed for security';
 
 app.post('/', (req, res) => {
     const intentName = req.body.queryResult.intent.displayName;
